@@ -19,8 +19,8 @@ function closeMenu() {
 fetch('nav.html')
     .then(res => res.text())
     .then(text => {
-        let oldelem = document.querySelector("script#reeplace_with_navbar");
-        letnewelem = document.createElement("div");
+        let oldelem = document.querySelector("script#replace_with_navbar");
+        let newelem = document.createElement("div");
         newelem.innerHTML = text;
         oldelem.parentNode.replaceChild(newelem, oldelem);
     })
