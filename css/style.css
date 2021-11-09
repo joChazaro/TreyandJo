@@ -63,12 +63,6 @@ a {
     color: #482ff7;
 }
 
-.nav-logo {
-    font-size: 2.1rem;
-    font-weight: 500;
-    color: #482ff7;
-}
-
 @media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;

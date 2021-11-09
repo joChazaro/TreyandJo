@@ -12,6 +12,7 @@ const navMenu = document.querySelector(".nav-menu");
 const navLink = document.querySelectorAll(".nav-link");
 
 hamburger.addEventListener("click", mobileMenu);
+
 navLink.forEach(n => n.addEventListener("click", closeMenu));
 
 function mobileMenu() {
